@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+ul{
+    list-style: none;
+}
+.con-1{
+    width: 90%;
+    margin: auto;
+}
+/* ---navegacion ---*/
+.nav{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.img-bus{
+    width: 100px;
+    margin-top: 40px;
+}
+.search{
+    width: 200px;
+    height: 60px;
+}
+.iconos svg{
+    justify-content: space-around;
+    cursor: pointer;
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    
+}
+/* presentacion*/
+header{
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    
+
+}
+.perfil{
+    
+    width: 220px;
+    border-radius: 50%;}
+
+.nav-2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    
+}
+.edit{
+    width: 150px;
+    height: 50px;
+
+
+}
