@@ -61,6 +61,12 @@ header{
 .edit{
     width: 150px;
     height: 50px;
-
+    background-color: aliceblue;
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+}
+.nav-2 svg{
+    width: 100px;
+    height: 100px;
 
 }
