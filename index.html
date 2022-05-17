@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/main-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>Practica1</title>
 </head>
 <body>
     <div class="con-1">
         <nav class="nav">
 
-            <img src="./imagenes/logotipo-de-instagram.png" alt="img-insta"class="img-bus">
+            <img src="./imagenes/logotipo-de-instagram.png" alt="img-insta">
             <ul class="search">
                 <li><input type="text" placeholder="🔎 Buscar"></li>
                 
@@ -48,11 +52,15 @@
         </nav>
         <!-- contenido -->
         <div class="pres-1">
-            <img src="./imagenes/76479dd91dc55c2768ddccfc30a4fbf5.jpg" alt="perf" class="perfil">
-            <div class="nav-2">
+            
+            <img src="./imagenes/76479dd91dc55c2768ddccfc30a4fbf5.jpg" alt="perf" class="perf-1">
+
+            
+            <div class="pres">
+                <div class="nav-2">
                 
                     <h1>N_perfil</h1>
-                    <button class="edit">Editar perfil</button>
+                    <button>Editar perfil</button>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                         <path
                             d="M12 16c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.084 0 2 .916 2 2s-.916 2-2 2-2-.916-2-2 .916-2 2-2z" />
@@ -60,20 +68,76 @@
                             d="m2.845 16.136 1 1.73c.531.917 1.809 1.261 2.73.73l.529-.306A8.1 8.1 0 0 0 9 19.402V20c0 1.103.897 2 2 2h2c1.103 0 2-.897 2-2v-.598a8.132 8.132 0 0 0 1.896-1.111l.529.306c.923.53 2.198.188 2.731-.731l.999-1.729a2.001 2.001 0 0 0-.731-2.732l-.505-.292a7.718 7.718 0 0 0 0-2.224l.505-.292a2.002 2.002 0 0 0 .731-2.732l-.999-1.729c-.531-.92-1.808-1.265-2.731-.732l-.529.306A8.1 8.1 0 0 0 15 4.598V4c0-1.103-.897-2-2-2h-2c-1.103 0-2 .897-2 2v.598a8.132 8.132 0 0 0-1.896 1.111l-.529-.306c-.924-.531-2.2-.187-2.731.732l-.999 1.729a2.001 2.001 0 0 0 .731 2.732l.505.292a7.683 7.683 0 0 0 0 2.223l-.505.292a2.003 2.003 0 0 0-.731 2.733zm3.326-2.758A5.703 5.703 0 0 1 6 12c0-.462.058-.926.17-1.378a.999.999 0 0 0-.47-1.108l-1.123-.65.998-1.729 1.145.662a.997.997 0 0 0 1.188-.142 6.071 6.071 0 0 1 2.384-1.399A1 1 0 0 0 11 5.3V4h2v1.3a1 1 0 0 0 .708.956 6.083 6.083 0 0 1 2.384 1.399.999.999 0 0 0 1.188.142l1.144-.661 1 1.729-1.124.649a1 1 0 0 0-.47 1.108c.112.452.17.916.17 1.378 0 .461-.058.925-.171 1.378a1 1 0 0 0 .471 1.108l1.123.649-.998 1.729-1.145-.661a.996.996 0 0 0-1.188.142 6.071 6.071 0 0 1-2.384 1.399A1 1 0 0 0 13 18.7l.002 1.3H11v-1.3a1 1 0 0 0-.708-.956 6.083 6.083 0 0 1-2.384-1.399.992.992 0 0 0-1.188-.141l-1.144.662-1-1.729 1.124-.651a1 1 0 0 0 .471-1.108z" />
                     </svg>
                 
+                </div>
+                <div class="con-2">
+                    <p class="pub">publicaciones</p>
+                    <p class="seg">seguidores</p>
+                    <p class="seg-2">seguidos</p>
+                </div>
+                <div class="con-3">
+                    <p class="name">Mario u</p>
+                    <p class="age">Age 23</p>
+                    <p class="wk">web develop</p>
+                    <a clas ="link-1"href="https://www.facebook.com/marioalexis.uribe">facebook</a>
+                </div>
             </div>
-            <div class="con-2">
-                <p>publicaciones</p>
-                <p>seguidores</p>
-                <p>seguidos</p>
-            </div>
-            <div class="con-3">
-                <p>Mario u</p>
-                <p>Age 23</p>
-                <p>web develop</p>
-                <a href="https://www.facebook.com/marioalexis.uribe">facebook</a>
-            </div>
+            
+            
         </div>
         <hr>
+        <!-- imagenes -->
+        <main class="contenido">
+            
+            <div class="etiq">
+                <button class="pub">publicaciones</button>
+                <button class="etiq-1">estiqutas</button>
+
+            </div>
+            <div class="row">
+            
+                <div class="size column">
+                    <img src="./imagenes/1.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/8.png" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/3.webp" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/4.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/5.webp" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/6.jpg" class="img-style" style="width:100%" alt="">
+                </div>
+                <div class="column size">
+                    <img src="./imagenes/7.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/2.png" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/8.png" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/10.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/11.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/12.jpg" class="img-style" style="width:100%" alt="">
+                </div>
+                <div class="size column">
+                    <img src="./imagenes/1.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/2.png" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/3.webp" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/4.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/5.webp" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/6.jpg" class="img-style" style="width:100%" alt="">
+                </div>
+                <div class="column size">
+                    <img src="./imagenes/7.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/8.png" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/10.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/4.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/11.jpg" class="img-style" style="width:100%" alt="">
+                    <img src="./imagenes/12.jpg" class="img-style" style="width:100%" alt="">
+                </div>
+                
+        </main>
+        <hr>
+        <footer>
+            <p></p><h2>Made by css and html</h2></p>
+            <p><h2>designed by : Mario Alexis Uribe</h2></p>
+            <p></p><h2>Alvaro del angel</h2></p>
+
+        </footer>
+
     </div>
+    
 </body>
 </html>
