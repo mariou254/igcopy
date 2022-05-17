@@ -38,12 +38,13 @@ ul{
     
 }
 /* presentacion*/
-header{
+.pres-1{
     
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    padding: 100px;
+    height: 300px;
+
     
 
 }
@@ -68,5 +69,11 @@ header{
 .nav-2 svg{
     width: 100px;
     height: 100px;
+
+}
+.con-2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
 
 }
