@@ -103,3 +103,73 @@ ul{
     height: 40px;
     width: 100px;
 }
+/* ontenedor historias */
+.presentation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*. main-presentation {
+    width: 70%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 80% 10%;
+    grid-gap: 5px;
+    align-items: center;
+} */
+
+/* .left-col {
+    display: flex;
+    flex-direction: column;
+} */
+
+.status {
+    width: 100%;
+    height: 120px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    padding: 10px;
+    /* padding-right: 0; */
+    display: flex;
+  /*   align-items: center; */
+    overflow: hidden;
+    overflow-x: auto;
+    justify-content: space-between;
+}
+
+.status::-webkit-scrollbar {
+    display: none;
+}
+
+.status-card {
+    flex: 0 0 auto;
+    width: 80px;
+    max-width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.profile-pic img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 3px;
+    background: linear-gradient(45deg, rgb(0, 255, 213), rgb(255, 94, 0) 40%, rgb(98, 0, 255) 90%);
+    border: 5px solid #fff;
+}
+
+/* .username {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.5)
+} */
