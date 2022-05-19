@@ -17,6 +17,7 @@
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+    cursor: zoom-in;
 }
 @media (max-width: 1000px) {
     .column {

@@ -26,6 +26,7 @@ ul{
     /* position: sticky; */
     background-color: #dfdfdf;
     width: 100%;
+    margin-bottom: 10PX;
 
     
 }
@@ -48,6 +49,7 @@ ul{
 .search input{
     font-size: 20px;
     border-radius: 10px;
+    text-align: center;
 }
 .iconos svg{
     justify-content: space-around;
@@ -80,6 +82,7 @@ ul{
     display: flex;
     justify-content: space-between;
     border: 1px solid #dbd;
+    background-color: #dfdfdf;
 }
 .nav-2 button{
     cursor: pointer;
@@ -87,27 +90,31 @@ ul{
     margin-top: 1px;
     margin-bottom: 1px;
     border-radius: 10px;
-
+    
 }
+
 .nav-2 svg{
     cursor: pointer;
     width: 30px;
     height: 30px;
     align-self: center;
 }
+/* publicaciones seguidores y seguidos */
 .con-2{
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: space-between;
     margin-top: 5px;
     margin-bottom: 10px;
+    margin-top: 10px;
 
 }
+/* edad nombre */
 .con-3{
-    
-    justify-content: center;
+    justify-content: space-between;
     height: 100px;
     font-size: 20px;
+    align-items: center;
 }
 /* botones*/
 .etiq{
@@ -126,6 +133,8 @@ ul{
     cursor: pointer;
     font-size: 20px;
     padding: 10px;
+    text-align: center;
+    border-radius: 10px;
 }
 .etiq .etiq-1 {
     height: 40px;
@@ -133,6 +142,8 @@ ul{
     cursor: pointer;
     font-size: 20px;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: #cdcdcd;
 }
 
 /* contenedor historias */
@@ -187,3 +198,86 @@ ul{
     border: 5px solid #fff;
 }
 
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*  cursor: zoom-in;*/
+} 
+footer {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration-color: azure;
+    text-align: center;
+    text-transform: capitalize;
+    color: #696969;
+    text-shadow: 3px 3px 3px #cdcdcd;
+
+}
+@media screen and (max-width: 800px) {
+    .search input {
+        width: 120px;
+        height: 27px;
+    }
+
+    .iconos svg {
+        width: 75px;
+        margin: 10px;
+    }
+
+    .nav img {
+        width: 40px;
+        margin: 10px 0 10px 10px;
+    }
+
+    .pres-1 img {
+        width: 150px;
+        height: 150px
+    }
+
+    .pres {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .search input {
+        display: none;
+    }
+
+    .iconos svg {
+        width: 40px;
+        margin: 10px;
+    }
+
+    .pres-1 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .pres {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .iconos svg {
+        width: 30px;
+        margin: 10px;
+    }
+
+    .nav img {
+        width: 30px;
+        margin: 10px 0 10px 10px;
+    }
+
+    .pres-1 img {
+        width: 80px;
+        height: 80px
+    }
+
+    .pres {
+        width: 100%;
+    }
+}
